@@ -1,0 +1,137 @@
+/* =======================
+   REPORT CARDS CONTAINER
+   ======================= */
+   #report-cards {
+    font-size: 0.8em;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+/* =======================
+   ACCURACY PERCENTAGES
+   ======================= */
+#accuracies-title {
+    background-color: #000000; /* Green background */
+    border-radius: 7px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 3px;
+    border: 2px solid #333; /* Dark gray border */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.accuracyDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.accuracies {
+    border: 2px solid #000000; /* Green border */
+    border-radius: 10px;
+    padding: 3px 5px;
+    font-size: 20px;
+}
+
+#white-accuracy {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+}
+
+#black-accuracy {
+    background-color: rgba(0, 0, 0, 0.6); /* Black with opacity */
+    color: #fff; /* White text */
+}
+
+/* =======================
+   CLASSIFICATION MESSAGE
+   ======================= */
+#classification-message-container,
+#top-alternative-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 25px;
+    width: 90%;
+    background-color: #000000; /* Green background */
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff; /* White text */
+    border: 2px solid #333; /* Dark gray border */
+}
+
+#classification-message {
+    font-size: 18px;
+}
+
+#top-alternative-message {
+    color: #a185d5; /* Purple text */
+    text-align: center !important;
+    margin-top: 5px !important;
+}
+
+/* =======================
+   ENGINE SUGGESTIONS
+   ======================= */
+#engine-suggestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: 2px solid #333; /* Dark gray border */
+    width: 90%;
+    background-color: #000000; /* Green background */
+}
+
+#engine-suggestions-title {
+    margin-top: 5px;
+}
+
+.accuracyHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.engine-suggestion {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.engine-suggestion b {
+    padding: 0 3px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 4px;
+    background-color: #333; /* Dark gray background */
+    border: 2px solid #333; /* Dark gray border */
+}
+
+/* =======================
+   OPENING NAME
+   ======================= */
+#opening-name {
+    position: absolute;
+    left: 5%;
+    top: 50px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #000000; /* Green background */
+    border: 2px solid #333; /* Dark gray border */
+    padding: 0px 5px;
+}

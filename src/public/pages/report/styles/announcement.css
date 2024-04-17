@@ -1,0 +1,64 @@
+#announcement {
+    display: block; /* Changed display to block */
+    justify-content: flex-start; /* Changed justify-content */
+    align-items: flex-end; /* Changed align-items */
+    font-size: 12px; /* Reduced font size */
+    margin-bottom: 20px; /* Increased margin */
+    padding: 8px; /* Reduced padding */
+
+    width: 80%; /* Reduced width */
+    background-color: var(--secondary-color);
+    position: absolute; /* Changed position */
+    top: 0; /* Adjusted position */
+    left: 50%; /* Adjusted position */
+    transform: translateX(-50%); /* Adjusted position */
+    margin-left: 0; /* Removed margin */
+}
+
+#kofi {
+    cursor: pointer;
+    display: inline-block; /* Changed display */
+    justify-content: flex-start; /* Changed justify-content */
+    align-items: flex-end; /* Changed align-items */
+    margin: 10px; /* Added margin */
+}
+
+#kofi-a,
+#discord-a {
+    cursor: not-allowed; /* Changed cursor */
+    display: inline-block; /* Changed display */
+    justify-content: flex-start; /* Changed justify-content */
+    align-items: flex-end; /* Changed align-items */
+    text-decoration: none;
+    color: white;
+    border-radius: 5px; /* Reduced border radius */
+    padding: 8px; /* Reduced padding */
+    background-color: var(--primary-color);
+    gap: 3px; /* Reduced gap */
+    text-align: left; /* Changed text-align */
+}
+
+#discord-a {
+    margin-right: 5px; /* Reduced margin */
+    margin-left: 5px; /* Reduced margin */
+}
+
+.wise-words {
+    margin-left: 5px; /* Reduced margin */
+    color: var(--secondary-color); /* Changed color */
+}
+
+.wise-buttons {
+    display: inline-block; /* Changed display */
+    margin-top: 10px; /* Added margin */
+}
+
+#discord {
+    font-size: 16px; /* Reduced font size */
+}
+
+@media (max-width: 1105px) {
+    .ad-text {
+        display: none;
+    }
+}

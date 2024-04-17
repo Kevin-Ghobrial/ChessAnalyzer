@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    font-family: "JetBrains Mono", monospace;
+}
+
+:root {
+    --border-color: #28242b;
+
+    --primary-color: #66d3ec;
+    --secondary-color: #66d3ec;
+
+    --announcement-background-color: #ef599a;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+#board {
+    transform: scale(0.7); /* Adjust the scale value as needed */
+    transform-origin: top left; /* Ensures the board scales from the top left corner */
+}
+
+#board-outer-container {
+    transform: scale(0.8); /* Adjust the scale value as needed */
+    transform-origin: top left; /* Ensures the board scales from the top left corner */
+}
+
+/* Example of adjusting the size of other elements */
+#evaluation-bar {
+    width: 30px; /* You may need to adjust the size of this element separately */
+    height: 100%; /* Adjust the height of the evaluation bar relative to the scaled board */
+}
+
+/* Example of adjusting the size of text */
+.profile {
+    font-size: 0.5em; /* Adjust the font size of profile text */
+}
+
+#bottom-player-profile {
+    position: relative;
+    top: -200px; /* Adjust the value as needed to align it properly */
+}
+
+#review-panel-title {
+    all: unset;
+}

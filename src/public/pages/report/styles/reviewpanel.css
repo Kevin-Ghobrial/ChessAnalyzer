@@ -1,0 +1,125 @@
+#review-panel {
+    display: grid;
+    grid-template-columns: 100%;
+    border-radius: 20px;
+    height: 70%;
+    min-height: 600px;
+    background-color: #fff; /* White background */
+}
+
+#review-panel-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#review-panel-title {
+    width: auto;
+    height: auto;
+    color: #000; /* Black text */
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#load-type-dropdown-container {
+    display: none;
+}
+
+#review-button {
+    margin-top: 20px;
+    
+    font-size: 10px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle {
+    display: none;
+}
+
+#evaluation-progress-bar,
+#status-message,
+.g-recaptcha,
+#secondary-message {
+    display: none;
+}
+
+#review-panel-toolbar {
+    display: none;
+}
+
+#load-type-dropdown-container {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+#load-type-dropdown {
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    font-weight: bold;
+    border: 2px solid #000; /* Black border */
+    outline: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#gameInputContainer,
+#gameInputContainer2,
+.big-depth-container {
+    display: none;
+}
+
+#review-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle {
+    display: none;
+}
+
+#review-panel-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#review-panel-toolbar-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#review-panel-toolbar-buttons button {
+    padding: 20px 20px; /* Adjusted padding */
+    font-size: 10px; /* Adjusted font size */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(0.7); /* Adjust the scale percentage as needed */
+}
+
+#review-panel-toolbar-buttons button i {
+    margin-right: 5px; /* Adjusted margin */
+}
+

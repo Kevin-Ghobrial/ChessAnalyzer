@@ -1,0 +1,49 @@
+.profile {
+    color: white;
+    font-size: 20px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 10px;
+    margin: 5px; /* Added margin */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Added a shadow */
+}
+
+.profile:nth-child(1) {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 20px; /* Adjusted margin */
+}
+
+#board-outer-container {
+    gap: 20px; /* Increased gap */
+    grid-template-columns: repeat(3, 1fr); /* Changed columns to 3 */
+}
+
+#board-inner-container {
+    display: grid; /* Changed display to grid */
+    grid-template-columns: repeat(2, 1fr); /* Adjusted columns */
+    gap: 30px; /* Increased gap */
+    margin-top: 30px; /* Added margin */
+}
+
+#evaluation-bar {
+    background-color: white;
+    border: 2px dashed var(--border-color); /* Changed border style to dashed */
+    border-radius: 10px; /* Increased border radius */
+    padding: 15px; /* Increased padding */
+    margin: 20px auto; /* Adjusted margin */
+}
+
+#board {
+    grid-column: 1 / 3; /* Expanded grid column */
+    max-width: 80%; /* Reduced max width */
+    width: 520px; /* Decreased width */
+    height: 400px; /* Decreased height */
+    border: 4px solid var(--border-color); /* Increased border thickness */
+    border-radius: 20px; /* Increased border radius */
+    /*padding: 20px; /* Increased padding */
+    margin: 50px auto; /* Adjusted margin */
+}
